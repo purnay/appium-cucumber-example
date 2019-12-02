@@ -25,7 +25,7 @@ REST Assured library is used for automation of API tests. Both UI and API tests 
 
 ### RESTful API tests
 - Couple of APIs (5 day weather forecast and current day forecast by a city) from OpenWeather are used in the tests
-- Please create a test account and get API key to access above two free APIs
+- Please create a test account at https://openweathermap.org/ and get API key to access above two free APIs
 - Update the property `appid` in the properties file `weatherapi.properties` with your API key
 - Execute the API tests from the runner `RunApiFeatures`
 - All API tests should pass and report can be retrieved from same reports directory
