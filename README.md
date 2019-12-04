@@ -29,3 +29,7 @@ REST Assured library is used for automation of API tests. Both UI and API tests 
 - Update the property `appid` in the properties file `weatherapi.properties` with your API key
 - Execute the API tests from the runner `RunApiFeatures`
 - All API tests should pass and report can be retrieved from same reports directory
+
+### Command line execution
+- To run all feature files and tests `mvn test`
+- To run single test (scenario) with a tag (e.g. tag @apiTest2) `mvn test -Dcucumber.options="--tags @apiTest2"` 
